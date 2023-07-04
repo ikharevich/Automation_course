@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1 (Python 3.11.4 on darwin)" generated="20230704 02:22:24.747" rpa="false" schemaversion="4">
+<suite id="s1" name="Test 1" source="/Users/ivankharevich/Desktop/Study/project_2/test_1.robot">
+<test id="s1-t1" name="1 Test" line="13">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230704 02:22:24.834" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com'.</msg>
+<msg timestamp="20230704 02:22:24.834" level="INFO">Executing: /Users/ivankharevich/Desktop/Study/project_2/venv/lib/python3.11/site-packages/selenium/webdriver/common/macos/selenium-manager --browser chrome --output json</msg>
+<status status="PASS" starttime="20230704 02:22:24.833" endtime="20230704 02:22:27.782"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230704 02:22:32.785" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20230704 02:22:27.782" endtime="20230704 02:22:32.785"/>
+</kw>
+<doc>Test Documentation Line 1
+Test Documentation Line 2</doc>
+<tag>smoke</tag>
+<status status="PASS" starttime="20230704 02:22:24.833" endtime="20230704 02:22:32.785"/>
+</test>
+<status status="PASS" starttime="20230704 02:22:24.748" endtime="20230704 02:22:32.786"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">smoke</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Test 1">Test 1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
